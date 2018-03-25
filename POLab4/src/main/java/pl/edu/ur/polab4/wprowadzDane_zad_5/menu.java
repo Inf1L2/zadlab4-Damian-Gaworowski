@@ -10,15 +10,14 @@ import java.util.Scanner;
  * @author HP
  */
 public class menu {
-    public static void menu() {
+    public static void main(String[] args) {
         int wybór;
         
          tabstud studenci = new tabstud();
          studenci.add();
 
         Scanner odczyt = new Scanner(System.in);
-        System.out.println("1. Dodaj Studenta, 2.Edytuj studenta, 3.Usun studenta, 4.Wyswietl studenta, 5.Wyswietl wszystkich studentow, " +
-                    "6.Wyswietl zakres studentow");
+        System.out.println("sds");
             wybór = odczyt.nextInt();
             switch (wybór)
             {
