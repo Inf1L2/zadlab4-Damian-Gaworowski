@@ -12,12 +12,15 @@ import java.util.Scanner;
 
 public class tabstud {
     studentt[] studenci;
+    int index =0;
     Scanner odczyt = new Scanner(System.in);
     
-    public tabstud(){
-    studentt studenci[]= new studentt[100];
+  
     
-   }
+     public tabstud(){
+        this.index = 0;
+        this.studenci = new studentt[100];
+}
     public void add()
     {
         for(int i=0;i<studenci.length;i++)
