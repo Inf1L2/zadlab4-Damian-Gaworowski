@@ -17,7 +17,15 @@ public class menu {
          studenci.add();
 
         Scanner odczyt = new Scanner(System.in);
-        System.out.println("sds");
+        System.out.println("Wybierz działanie:");
+        System.out.println("1=wprowadzanie danych studenta pod wybrany index tablicy,");
+        System.out.println("2=edycję (nadpisanie danych studenta) spod wybranego indeksu,");
+        System.out.println("3=usunięcie danych studenta (tj. nadpisanie elementów tablicy wartościami domyślnymi),");
+        System.out.println("4=wyświetlenie obiektu o danym indeksie.");
+        System.out.println("5=wyświetlenie wszystkich obiektów,");
+        System.out.println("6=wyświetlenie zakresu obiektów w podanym zakresie.");
+                
+        
             wybór = odczyt.nextInt();
             switch (wybór)
             {
